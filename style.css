@@ -10,6 +10,8 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+
+
 .form-group {
     margin-bottom: 20px;
 }
@@ -95,3 +97,23 @@ input[type="submit"]:hover {
     margin-bottom: 10px;
 }
 
+#submit-btn {
+    display: inline-block;
+    text-decoration: none; /* Remove default underline */
+    margin: 20px auto;
+}
+
+#submit-btn input[type="button"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+#submit-btn input[type="button"]:hover {
+    background-color: #0056b3;
+}
