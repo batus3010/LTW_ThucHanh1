@@ -95,18 +95,3 @@ input[type="submit"]:hover {
     margin-bottom: 10px;
 }
 
-#submit-btn {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-#submit-btn:hover {
-    background-color: #0056b3;
-}
